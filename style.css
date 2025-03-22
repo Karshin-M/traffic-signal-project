@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    padding-top: 20px;
+    padding: 05px;
+    font-size: x-large;
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/18/21/41/lonely-327704_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Stop {
+    width: 130px;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30%;
+    margin-bottom: 30px;
+    margin-left: 700px;
+}
+
+.Ready {
+    width: 130px;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30%;
+    margin-bottom: 30px;
+    margin-left: 700px;
+}
+
+.Go {
+    width: 130px;
+    height: 100px;
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30%;
+    margin-bottom: 30px;
+    margin-left: 700px;
+}
+
+#b1 {
+    height: 50px;
+    width: 70px;
+    font-size: x-large;
+    background-color: rgb(215, 24, 24);
+    margin-bottom: 30px;
+}
+
+#b2 {
+    height: 100px;
+    width: 70px;
+    font-size: x-large;
+    background-color: rgb(255, 255, 11);
+    margin-bottom: 30px;
+}
+
+#b3 {
+    height: 50px;
+    width: 70px;
+    font-size: x-large;
+    margin-bottom: 30px;
+    background-color: rgb(0, 255, 0);
+}
+
+#Stop:hover {
+    cursor: pointer;
+}
+
+#Ready:hover {
+    cursor: pointer;
+}
+
+#Go:hover {
+    cursor: pointer;
+}
